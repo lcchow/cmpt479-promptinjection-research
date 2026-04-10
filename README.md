@@ -42,6 +42,7 @@ The repository preserves the final benchmark inputs and the result tables used f
 - `scripts/` — helper scripts for document extraction, email retrieval, and local hosting
 - `orchestrator.py` — main benchmark runner
 - `benchmark_config.json` — primary benchmark configuration
+- `prompts.xlsx` - summary of all prompt test cases designed
 
 ## Main files for reproduction
 
@@ -50,7 +51,6 @@ The repository preserves the final benchmark inputs and the result tables used f
 - `setup_data/Test-Cases.csv`
 - `results/canonical_manifest.csv`
 - `results/canonical_manifest.json`
-- `results/experiment_results.csv`
 - `results/experiment_results_html.csv`
 - `results/experiment_results_doc.csv`
 - `results/experiment_results_email.csv`
@@ -61,9 +61,6 @@ The repository currently preserves results for the model lanes that were retaine
 
 - `openai-codex/gpt-5.4`
 - `openai/gpt-4o-mini`
-- `nvidia/z-ai/glm5`
-
-Not every model necessarily appears in every final analysis slice, but the retained CSVs preserve the result rows that were kept in the cleaned repository.
 
 ## Benchmark configuration
 
