@@ -1,4 +1,4 @@
-# OpenClaw Security Research (Faithful)
+# OpenClaw Security Research
 
 This repository contains the benchmark artifacts, orchestration code, configuration, and final result tables for a study of indirect prompt injection against OpenClaw-based agent workflows.
 
