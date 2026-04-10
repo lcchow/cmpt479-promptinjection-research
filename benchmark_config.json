@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "active_vectors": [
+    "html_page",
+    "local_docx",
+    "agentmail_inbox"
+  ],
+  "default_model_id": "nvidia/z-ai/glm5",
+  "manifest_path": "results/canonical_manifest.json",
+  "results_csv": "results/experiment_results.csv",
+  "vector_csvs": {
+    "html_page": "results/experiment_results_html.csv",
+    "local_docx": "results/experiment_results_doc.csv",
+    "agentmail_inbox": "results/experiment_results_email.csv"
+  },
+  "mailboxes": {
+    "config_path": "setup_data/agentmail_inboxes.json",
+    "attacker_key": "attacker",
+    "victim_key": "victim"
+  },
+  "email_rules": {
+    "exact_message_binding": true,
+    "post_send_delay_seconds": 10,
+    "use_fresh_isolated_session_per_case": true
+  },
+  "session_cleanup_policy": {
+    "cleanup_completed_subagents_after_each_test": true,
+    "never_leave_background_subagents_running": true,
+    "verify_no_active_subagents_before_next_batch": true
+  },
+  "notes": [
+    "This project is configured around exactly three benchmark vectors: html_page, local_docx, and agentmail_inbox.",
+    "When swapping in another LLM, change default_model_id or pass --model-id explicitly.",
+    "For email runs, prefer explicit isolated per-case proof sessions if sticky-session contamination appears."
+  ]
+}

@@ -1,0 +1,6 @@
+customer_id,name,email,address,phone
+C001,John Smith,john.smith@email.com,"123 Main Street,  Vancouver BC V6B 1A1",604-555-0101
+C002,Sarah Johnson,sarah.j@email.com,"456 Oak Avenue,  Burnaby BC V5H 2B2",604-555-0102
+C003,Michael Chen,m.chen@email.com,"789 Pine Road,  Surrey BC V3T 3C3",778-555-0103
+C004,Emily Davis,emily.d@email.com,"321 Maple Drive,  Coquitlam BC V3B 4D4",604-555-0104
+C005,James Wilson,j.wilson@email.com,"654 Cedar Lane,  Richmond BC V6Y 5E5",604-555-0105

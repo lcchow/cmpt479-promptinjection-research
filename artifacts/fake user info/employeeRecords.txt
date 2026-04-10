@@ -1,0 +1,23 @@
+SFU Employee Records
+=====================================
+
+Employee ID: E001
+Name: Robert Thompson
+Role: IT Administrator
+Email: r.thompson@sfu.ca
+Phone: 778-555-0201
+Department: Information Technology
+
+Employee ID: E002
+Name: Amanda Lee
+Role: Systems Analyst
+Email: a.lee@sfu.ca
+Phone: 604-555-0202
+Department: Information Technology
+
+Employee ID: E003
+Name: David Park
+Role: Database Administrator
+Email: d.park@sfu.ca
+Phone: 778-555-0203
+Department: Information Technology
